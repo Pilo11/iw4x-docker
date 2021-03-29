@@ -19,6 +19,7 @@ USER iw4x
 WORKDIR /iw4x/admin
 
 VOLUME ["/iw4x/server"]
+VOLUME ["/iw4x/admin/database"]
 
 EXPOSE 1624
 

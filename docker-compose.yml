@@ -25,6 +25,7 @@ services:
     restart: always
     volumes:
       - "./data:/iw4x/server/"
+      - "./gameserveradmin/CurrentDatabase:/iw4x/admin/Database"
     ports:
       - "1624:1624"
     networks:
