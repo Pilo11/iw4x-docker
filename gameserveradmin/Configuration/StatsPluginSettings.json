@@ -1,0 +1,93 @@
+{
+  "EnableAntiCheat": null,
+  "KillstreakMessages": [
+    {
+      "Count": -1,
+      "Message": "Try not to kill yourself anymore"
+    },
+    {
+      "Count": 5,
+      "Message": "Great job! You're on a ^55 killstreak!"
+    },
+    {
+      "Count": 10,
+      "Message": "Amazing! ^510 kills ^7without dying!"
+    },
+    {
+      "Count": 25,
+      "Message": "You better call in that nuke, ^525 killstreak^7!"
+    }
+  ],
+  "DeathstreakMessages": [
+    {
+      "Count": 5,
+      "Message": "Pick it up soldier, you've died ^55 times ^7in a row..."
+    },
+    {
+      "Count": 10,
+      "Message": "Seriously? ^510 deaths ^7without getting a kill?"
+    }
+  ],
+  "TopPlayersMinPlayTime": 10800,
+  "StoreClientKills": false,
+  "MostKillsMaxInactivityDays": 30,
+  "MostKillsClientLimit": 5,
+  "EnableAdvancedMetrics": true,
+  "WeaponNameParserConfigurations": [
+    {
+      "Game": "IW3",
+      "Delimiters": [
+        "_"
+      ],
+      "WeaponSuffix": "mp",
+      "WeaponPrefix": null
+    },
+    {
+      "Game": "IW4",
+      "Delimiters": [
+        "_"
+      ],
+      "WeaponSuffix": "mp",
+      "WeaponPrefix": null
+    },
+    {
+      "Game": "IW5",
+      "Delimiters": [
+        "_"
+      ],
+      "WeaponSuffix": "mp",
+      "WeaponPrefix": "iw5"
+    },
+    {
+      "Game": "T6",
+      "Delimiters": [
+        "_",
+        "+"
+      ],
+      "WeaponSuffix": "mp",
+      "WeaponPrefix": null
+    }
+  ],
+  "ServerDetectionTypes": null,
+  "AnticheatConfiguration": {
+    "Enable": false,
+    "ServerDetectionTypes": {},
+    "IgnoredClientIds": [],
+    "IgnoredDetectionSpecification": {
+      "IW4": {
+        "Chest": [
+          "m21.+"
+        ],
+        "Recoil": [
+          "ranger.*_mp",
+          "model1887.*_mp",
+          ".+shotgun.*_mp",
+          "turret_minigun_mp"
+        ],
+        "Button": [
+          ".*akimbo.*"
+        ]
+      }
+    }
+  }
+}

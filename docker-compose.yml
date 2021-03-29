@@ -13,6 +13,24 @@ services:
     ports:
       - "28960:28960"
       - "28960:28960/udp"
+    networks:
+      backend:
+        ipv4_address: 172.16.1.100
+
+  gameserveradmin:
+    build:
+      context: "./gameserveradmin/"
+    image: "iw4x-admin:latest"
+    container_name: "iw4x-admin"
+    restart: always
+    volumes:
+      - "./data:/iw4x/server/"
+    ports:
+      - "1624:1624"
+    networks:
+      backend:
+        ipv4_address: 172.16.1.101
+
   fileserver:
     build:
       context: "./fileserverimage/"
@@ -21,3 +39,11 @@ services:
     - ./files:/usr/share/nginx/html:ro
     ports:
     - "80:8080"
+
+networks:
+  backend:
+    name: backend
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.16.1.0/24

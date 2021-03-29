@@ -7,6 +7,7 @@ ENV LANG en_US.utf8 \
     WINEARCH win32
 
 RUN echo "x86" > /etc/apk/arch \
+    && apk update \
     && apk add --no-cache wine \
     && echo "x86_64" > /etc/apk/arch \
     && addgroup iw4x \
