@@ -7,7 +7,7 @@ services:
     container_name: "iw4x-server"
     restart: always
     environment:
-      IW4X_ARGS: "--ac-disable -dedicated +fs_game "mods/mapvote" +set sv_lanonly 1 +set net_port 28960 +exec server.cfg +map_rotate"
+      IW4X_ARGS: "--ac-disable -dedicated +fs_game mods/mapvote +set sv_lanonly 1 +set net_port 28960 +exec server.cfg +map_rotate"
     volumes:
       - "./data:/iw4x/server/"
     ports:
