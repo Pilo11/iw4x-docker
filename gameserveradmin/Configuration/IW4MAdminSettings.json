@@ -34,11 +34,14 @@
     "^5IW4M Admin ^7sees ^5YOU!",
     "{{TOPSTATS}}",
     "This server has seen a total of ^5{{TOTALPLAYERS}} ^7players!",
-    "Cheaters are ^1unwelcome ^7 on this server",
-    "Did you know 8/10 people agree with unverified statistics?"
+    "Did you know 8/10 people agree with unverified statistics?",
+    "Did you know that Sean likes Semtex?",
+    "Did you know that Phil likes committing suicide?",
+    "Josias is the JAVELIN master!",
+    "SEEEEEAN!",
+    "Geh auf's KLO!"
   ],
   "GlobalRules": [
-    "Cheating/Exploiting is not allowed",
     "Respect other players",
     "Administrators have the final say",
     "No racism or excessive trolling",
