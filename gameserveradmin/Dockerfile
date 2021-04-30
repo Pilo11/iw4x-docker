@@ -17,6 +17,7 @@ RUN chown -R iw4x:iw4x /iw4x
 
 USER iw4x
 WORKDIR /iw4x/admin
+RUN rm -f Plugins/VPNDetection.js
 
 VOLUME ["/iw4x/server"]
 VOLUME ["/iw4x/admin/database"]
