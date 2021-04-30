@@ -88,7 +88,7 @@
       "Password": "5sCuaTpdi63WmTy8",
       "Rules": [],
       "AutoMessages": [],
-      "ManualLogPath": "/iw4x/server/userraw/games_mp.log",
+      "ManualLogPath": "/iw4x/server/mods/kuc_mod/games_mp.log",
       "RConParserVersion": "IW4x (v0.6.0)",
       "EventParserVersion": "IW4x (v0.6.0)",
       "ReservedSlotNumber": 1,
