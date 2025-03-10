@@ -6,7 +6,7 @@ RUN apt-get update -y \
     && adduser -q --gecos "" --home /iw4x --disabled-password iw4x \
     && mkdir /iw4x/server \
     && mkdir /iw4x/admin \
-    && wget -O IW4MAdmin.zip https://github.com/RaidMax/IW4M-Admin/releases/download/2021.03.28.1-prerelease/IW4MAdmin-2021.03.28.1.zip \
+    && wget -O IW4MAdmin.zip https://github.com/RaidMax/IW4M-Admin/releases/download/2024.11.29.1-prerelease/IW4MAdmin-2024.11.29.1.zip \
     && unzip IW4MAdmin.zip -d /iw4x/admin \
     && rm -f IW4MAdmin.zip
 

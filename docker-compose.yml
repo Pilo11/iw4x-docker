@@ -32,16 +32,6 @@ services:
       backend:
         ipv4_address: 172.16.1.101
 
-  fileserver:
-    build:
-      context: "./fileserverimage/"
-    image: "fileserver:latest"
-    volumes:
-    - ./files:/usr/share/nginx/html:ro
-    ports:
-    - "80:8080"
-    network_mode: bridge
-
 networks:
   backend:
     name: backend
